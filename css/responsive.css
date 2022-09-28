@@ -1,0 +1,191 @@
+@media screen and (max-width: 700px){
+    .header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        top: -10px;
+        left: 40px;
+    }
+    .sharp1{
+        font-size: 48px;
+    }
+    .itAcademy{
+        font-size: 32px;
+        margin-top: 23px;
+    }
+    .purpleText{
+        font-size: 16px;
+        font-weight: 590;
+        text-align: center;
+        margin-left: 12px;
+    }
+    .whiteText{
+        font-size: 16px;
+        font-weight: 590;
+    }
+    .marg2{
+        position: relative;
+        bottom: 12px;
+    }
+    .marg{
+        margin-left: 5px;
+    }
+    .desp{
+        margin-top: -15px;
+    }
+    .buttonS{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .but2{
+        width: 250px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 70px;
+        position: relative;
+        bottom: 50px;
+    }
+    .main{
+        height: 100vh;
+    }
+    .about{
+        height: 195vh;
+        flex-direction: column;
+    }
+    .dark{
+        height: 100vh;
+    }
+    .wrap{
+        height: 205vh;
+    }
+    .bottomArrow{
+        left: 47%;
+        top: 20px;
+    }
+    .sty{
+        display: none;
+    }
+    .resp{
+        display: block;
+    }
+    .imgBlock2{
+        width: 100%;
+        left: 0;
+        position: absolute;
+        top: 1139px;
+
+    }
+    .leftBlock{
+        width: 70%;
+        margin-left: 100px;
+        margin-top: 35px;
+    }
+    .aboutText{
+        font-size: 30px;
+    }
+    .sharp2{
+        font-size: 22px;
+    }
+    .eduText{
+        font-size: 18px;
+    }
+    .styText{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .startFathBlock{
+        flex-direction: column;
+        margin-left: 20%;
+        margin-top: 10vh;
+    }
+    .margResp{
+        margin-top: 15vh;
+    }
+    .courses{
+        height: 320vh;
+    }
+    .lBimg1{
+        width: 280px;
+        height: 200px;
+    }
+    .lBimg2{
+        width: 280px;
+        height: 200px;
+    }
+    .lBimg3{
+        width: 280px;
+        height: 200px;
+    }
+    .ourCourses{
+        font-size: 28px;
+    }
+    .yOld{
+        font-size: 18px;
+    }
+    .typeCours{
+        font-size: 14px;
+    }
+    .info{
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+    .buttonSign{
+        width: 280px;
+        height: 60px;
+        margin-top: 20px;
+    }
+    .butText{
+        font-size: 14px;
+    }
+    .rightBlock1{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .dsplForCours{
+        margin-left: 33%;
+    }
+    .registration{
+        height: 110vh;
+    }
+    .dark1{
+        height: 110vh;
+    }
+    .marg9{
+        margin-left: 20%;
+        margin-top: 60px;
+    }
+    .firstLess{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .inpStyle{
+        width: 300px;
+    }
+    .signBut{
+        width: 300px;
+    }
+    .buttext2{
+        font-size: 14px;
+    }
+    .descriptInp{
+        font-size: 14px;
+    }
+    .slider{
+        height: 40vh;
+        margin-top: 25vh;
+    }
+    .section-g{
+        height: 420px;
+    }
+}
