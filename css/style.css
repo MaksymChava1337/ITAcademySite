@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #333333;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/44.jpg);
+    background-size: cover;
+    z-index: 2;
+}
+
+
+.wrap{
+    height: 520vh;
+    background-color: black;
+}
+
+
+.sharp{
+    color: #84429B;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 77px;
+    opacity: 5;
+}
+
+.name{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    opacity: 0.9;
+	margin-top: 15px;
+}
+
+.logo{
+    position: absolute;
+    left: 70px;
+    bottom: 563px;
+    z-index: 4;
+	display: flex;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #666666;
+    opacity: 0.24;
+    position: relative;
+    z-index: 3;
+}
+
+.dark{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.logoMain{
+    display: flex;
+}
+
+.sharp1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 116px;
+    color: #84429B;
+    position: relative;
+    z-index: 7;
+}
+
+.itAcademy{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 7;
+    margin-top: 28px;
+}
+
+.desp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.firstText{
+    display: flex;
+}
+
+.whiteText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 7;
+}
+
+.purpleText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color:  #84429B;
+    position: relative;
+    z-index: 7;
+}
+
+.but1{
+    width: 250px;
+    height: 60px;
+    background-color: rgba(132, 66, 155, 0.5);
+    position: relative;
+    z-index: 7;
+    border-radius: 50px;
+    opacity: 0.95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.6s;
+}
+
+.butText1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.but2{
+    width: 200px;
+    height: 60px;
+    border: 3px solid rgba(132, 66, 155, 0.5);
+    border-radius: 50px;
+    position: relative;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    transition: 0.6s;
+}
+
+.buttonS{
+    display: flex;
+    margin-top: 40px;
+}
+
+.butText2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.description{
+    margin-left: 70px;
+    margin-top:80px;
+}
+
+.marg{
+    margin-left: 8px;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #84429B;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bottomArrow{
+    width: 35px;
+    height: 20px;
+    background-image: url(../image/bottombutton.png);
+    background-size: cover;
+    position: relative;
+    left: 49%;
+    top: 120px;
+    z-index: 7;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
+    animation-duration: 1.5s;
+    animation-timing-function: 1s linear;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: #333333;
+    display: flex;
+}
+
+.eduIT{
+    display: flex;
+}
+.resp{
+    display: none;
+}
+
+.styText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+	margin-top: 30px;
+}
+
+.aboutText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 77px;
+    color: #ffffff;
+}
+
+.sharp2{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 48px;
+	color: #84429B;
+}
+
+.eduText{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 44px;
+	color: #FFFFFF;
+    margin-top: 3px;
+}
+
+.leftBlock{
+	width: 50%;
+	height: 95vh;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.rightBlock{
+	width: 100%;
+	height: 100vh;
+}
+
+.imgBlock2{
+	width: 82%;
+	height: 82vh;
+	background-image: url(../image/IMG_9655_photo\ 1.png);
+    background-size: cover;
+	position: relative;
+	left: 150px;
+	top: 55px;
+}
+
+.courses{
+	width: 100%;
+	height: 220vh;
+	background-color: #333333;
+}
+
+.ourCourses{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 77px;
+    color: #FFFFFF;
+    
+}
+
+.dsplForCours{
+    margin-left: 40%;
+    position: relative;
+    top: 3vh;
+}
+
+.startFathBlock{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10vh;
+}
+
+.lBimg1{
+    width: 550px;
+    height: 355px;
+    background-image: url(../image/396i.png);
+    background-size: cover;
+}
+
+.lBimg2{
+    width: 550px;
+    height: 355px;
+    background-image: url(../image/asbashdb.png);
+    background-size: cover;
+}
+
+.lBimg3{
+    width: 550px;
+    height: 355px;
+    background-image: url(../image/sjdaissi.png);
+    background-size: cover;
+}
+
+.yOld{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.typeCours{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 1vh;
+}
+
+.info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 8vh;
+    line-height: 40px;
+}
+
+.buttonSign{
+    width: 450px;
+    height: 60px;
+    background-color: rgba(132, 66, 155, 0.5);
+    position: relative;
+    z-index: 7;
+    border-radius: 50px;
+    opacity: 0.95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    margin-top: 10vh;
+}
+
+.butText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.rightBlock1{
+    margin-left: 7vh;
+}
+
+.registration{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/220097.jpg);
+    background-size: cover;
+
+}
+
+.firstLess{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 40px;
+    z-index: 4;
+}
+
+.descriptInp{
+    position: relative;
+    z-index: 4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 350px;
+    font-size: 16px;
+    
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 18px;
+}
+
+.inpStyle{
+    position: relative;
+    z-index: 4;
+    width: 400px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-top: 5px;
+}
+.marg9{
+    margin-left: 36%;
+    margin-top: 5%;
+}
+
+.signBut{
+    width: 400px;
+    height: 60px;
+    background-color:rgba(138, 57, 168, 0.8);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+
+.buttext2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 7;
+}
+
+.dark1{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.section-g {
+    height: 750px;
+    background-color: #333;
+    position: relative;
+  }
+  .content-g {
+    width: 1280px/1200px * 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+  .slider{
+      width: 80%;
+      height: 100vh;
+      overflow: hidden;    
+  }
+  .middle{
+      position: absolute;
+      top: -35%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+  }
+  .navigation{
+      position: absolute;
+      bottom: 16px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+  }
+  .bar{
+      height: 8px;
+      width: 30px;
+      margin: 6px;
+      cursor: pointer;
+      background-color: #ddd;
+      opacity: .5;
+      border-radius: 10px;
+      transition: all .4s ease;
+  }
+  .bar:hover{
+      opacity: 1;
+      transform: scale(1.1);
+  }
+  input[name="r"] {
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .slides{
+      width: 400%;
+      height: 100%;
+      display: flex;
+  }
+  .slide{
+      width: 25%;
+      transition: all .6s ease;   
+  }
+  .slide img{
+      width: 100%;
+      height: 100%;
+  }
+  
+  #r1:checked ~ .s1 {
+      margin-left: 0;
+  }
+  
+  #r2:checked ~ .s1 {
+      margin-left: -25%;
+  }
+  
+  #r3:checked ~ .s1 {
+      margin-left: -50%;
+  }
+  
+  #r4:checked ~ .s1 {
+      margin-left: -75%;
+  }
+  
+.que{
+    width: 100%;
+    height: 90vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.quesBlock{
+    width: 800px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.miniblock{
+    width: 410px;
+    height: 70px;
+    background-color: #84429B;
+    border-radius: 50px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.queText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.reply{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #84429B;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.ques{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.team{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/teamImg.png);
+    background-size: cover;
+}
+
+.dark2{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.photoBlock{
+    width: 300px;
+    height: 400px;
+    background-color: #83429bc4;
+    margin: 20px;
+}
+
+.allPhotoBlock{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    
+}
+
+.teamText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 743vh;
+    z-index: 3;
+}
+
+.photoBlk1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../image/imgTeach.png);
+    background-size: cover;
+}
+
+.photoBlk2{
+    width: 300px;
+    height: 300px;
+    background-image: url(../image/idk.png);
+    background-size: cover;
+}
+
+.photoBlk3{
+    width: 300px;
+    height: 300px;
+    background-image: url(../image/elonmask.png);
+    background-size: cover;
+}
+
+.teachName{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 5;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.nameDescript{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 5;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #8a8a8a;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.footLogo{
+    display: flex;
+    margin-left: 50px;
+}
+
+.styleSh{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 65px;
+
+color: #84429B;
+
+}
+
+.styleEDu{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+color: #FFFFFF;
+margin-top: 12px;
+margin-left: 5px;
+}
+
+.txtNum{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 48px;
+
+color: #FFFFFF;
+margin-right: 50px;
+}
